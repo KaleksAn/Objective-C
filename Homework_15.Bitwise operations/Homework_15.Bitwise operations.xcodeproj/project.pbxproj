@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8ABC64D26FB186000CC45AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC64C26FB186000CC45AC /* AppDelegate.m */; };
+		D8ABC65026FB186000CC45AC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC64F26FB186000CC45AC /* SceneDelegate.m */; };
+		D8ABC65326FB186000CC45AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC65226FB186000CC45AC /* ViewController.m */; };
+		D8ABC65626FB186000CC45AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ABC65426FB186000CC45AC /* Main.storyboard */; };
+		D8ABC65826FB186100CC45AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ABC65726FB186100CC45AC /* Assets.xcassets */; };
+		D8ABC65B26FB186100CC45AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ABC65926FB186100CC45AC /* LaunchScreen.storyboard */; };
+		D8ABC65E26FB186100CC45AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC65D26FB186100CC45AC /* main.m */; };
+		D8ABC66726FB18B600CC45AC /* AKStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABC66626FB18B600CC45AC /* AKStudent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8ABC64826FB186000CC45AC /* Homework_15.Bitwise operations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework_15.Bitwise operations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ABC64B26FB186000CC45AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8ABC64C26FB186000CC45AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8ABC64E26FB186000CC45AC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D8ABC64F26FB186000CC45AC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D8ABC65126FB186000CC45AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8ABC65226FB186000CC45AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8ABC65526FB186000CC45AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8ABC65726FB186100CC45AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8ABC65A26FB186100CC45AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8ABC65C26FB186100CC45AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ABC65D26FB186100CC45AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8ABC66526FB18B600CC45AC /* AKStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKStudent.h; sourceTree = "<group>"; };
+		D8ABC66626FB18B600CC45AC /* AKStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKStudent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8ABC64526FB186000CC45AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8ABC63F26FB186000CC45AC = {
+			isa = PBXGroup;
+			children = (
+				D8ABC64A26FB186000CC45AC /* Homework_15.Bitwise operations */,
+				D8ABC64926FB186000CC45AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8ABC64926FB186000CC45AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABC64826FB186000CC45AC /* Homework_15.Bitwise operations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8ABC64A26FB186000CC45AC /* Homework_15.Bitwise operations */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABC66426FB189F00CC45AC /* Classes */,
+				D8ABC64B26FB186000CC45AC /* AppDelegate.h */,
+				D8ABC64C26FB186000CC45AC /* AppDelegate.m */,
+				D8ABC64E26FB186000CC45AC /* SceneDelegate.h */,
+				D8ABC64F26FB186000CC45AC /* SceneDelegate.m */,
+				D8ABC65126FB186000CC45AC /* ViewController.h */,
+				D8ABC65226FB186000CC45AC /* ViewController.m */,
+				D8ABC65426FB186000CC45AC /* Main.storyboard */,
+				D8ABC65726FB186100CC45AC /* Assets.xcassets */,
+				D8ABC65926FB186100CC45AC /* LaunchScreen.storyboard */,
+				D8ABC65C26FB186100CC45AC /* Info.plist */,
+				D8ABC65D26FB186100CC45AC /* main.m */,
+			);
+			path = "Homework_15.Bitwise operations";
+			sourceTree = "<group>";
+		};
+		D8ABC66426FB189F00CC45AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8ABC66526FB18B600CC45AC /* AKStudent.h */,
+				D8ABC66626FB18B600CC45AC /* AKStudent.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8ABC64726FB186000CC45AC /* Homework_15.Bitwise operations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ABC66126FB186100CC45AC /* Build configuration list for PBXNativeTarget "Homework_15.Bitwise operations" */;
+			buildPhases = (
+				D8ABC64426FB186000CC45AC /* Sources */,
+				D8ABC64526FB186000CC45AC /* Frameworks */,
+				D8ABC64626FB186000CC45AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework_15.Bitwise operations";
+			productName = "Homework_15.Bitwise operations";
+			productReference = D8ABC64826FB186000CC45AC /* Homework_15.Bitwise operations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8ABC64026FB186000CC45AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = AK;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D8ABC64726FB186000CC45AC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = D8ABC64326FB186000CC45AC /* Build configuration list for PBXProject "Homework_15.Bitwise operations" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8ABC63F26FB186000CC45AC;
+			productRefGroup = D8ABC64926FB186000CC45AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8ABC64726FB186000CC45AC /* Homework_15.Bitwise operations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8ABC64626FB186000CC45AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ABC65B26FB186100CC45AC /* LaunchScreen.storyboard in Resources */,
+				D8ABC65826FB186100CC45AC /* Assets.xcassets in Resources */,
+				D8ABC65626FB186000CC45AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8ABC64426FB186000CC45AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ABC65326FB186000CC45AC /* ViewController.m in Sources */,
+				D8ABC64D26FB186000CC45AC /* AppDelegate.m in Sources */,
+				D8ABC65E26FB186100CC45AC /* main.m in Sources */,
+				D8ABC66726FB18B600CC45AC /* AKStudent.m in Sources */,
+				D8ABC65026FB186000CC45AC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8ABC65426FB186000CC45AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ABC65526FB186000CC45AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8ABC65926FB186100CC45AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ABC65A26FB186100CC45AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8ABC65F26FB186100CC45AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8ABC66026FB186100CC45AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8ABC66226FB186100CC45AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Homework_15.Bitwise operations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlxKan.Homework-15-Bitwise-operations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8ABC66326FB186100CC45AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Homework_15.Bitwise operations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlxKan.Homework-15-Bitwise-operations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8ABC64326FB186000CC45AC /* Build configuration list for PBXProject "Homework_15.Bitwise operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ABC65F26FB186100CC45AC /* Debug */,
+				D8ABC66026FB186100CC45AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ABC66126FB186100CC45AC /* Build configuration list for PBXNativeTarget "Homework_15.Bitwise operations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ABC66226FB186100CC45AC /* Debug */,
+				D8ABC66326FB186100CC45AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8ABC64026FB186000CC45AC /* Project object */;
+}
